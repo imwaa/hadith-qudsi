@@ -1,0 +1,28 @@
+.footer {
+  margin-top: 20px;
+  text-align: center;
+
+  .app-title {
+    font-weight: 600;
+
+    span {
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+
+  .author {
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    ion-icon {
+      font-size: 25px;
+    }
+  }
+}
