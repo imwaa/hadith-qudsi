@@ -1,4 +1,4 @@
-package com.walid.nawawi;
+package com.walid.qudsi;
 
 import com.getcapacitor.BridgeActivity;
 

@@ -1,8 +1,8 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import {CapacitorConfig} from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.walid.nawawi',
-  appName: '40 Nawawi',
+  appId: 'com.walid.qudsi',
+  appName: '40 Qudsi',
   webDir: 'www',
   bundledWebRuntime: false
 };

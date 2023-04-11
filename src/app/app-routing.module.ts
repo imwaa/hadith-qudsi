@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
-import {AuteurComponent} from "./pages/auteur/auteur.component";
 
 const routes: Routes = [
   {
@@ -10,9 +9,6 @@ const routes: Routes = [
   {
     path: 'hadith-page/:id',
     loadChildren: () => import('./pages/hadith-page/hadith-page.module').then(m => m.SelectedHadithPagePageModule)
-  },
-  {
-    path: 'auteur', component: AuteurComponent
   }
 ];
 
